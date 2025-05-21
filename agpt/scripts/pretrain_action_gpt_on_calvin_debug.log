@@ -1,0 +1,207 @@
+nohup: ignoring input
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_processes` was set to a value of `4`
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2025-05-21 13:50:12.921140: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-21 13:50:12.921146: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-21 13:50:12.964406: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-21 13:50:12.964406: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-21 13:50:13.200272: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-05-21 13:50:13.200272: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-05-21 13:50:13.200275: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-05-21 13:50:13.200281: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1747835413.317643    1614 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747835413.317643    1613 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747835413.317649    1615 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747835413.317648    1616 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747835413.352305    1616 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1747835413.352309    1615 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1747835413.352312    1613 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1747835413.352312    1614 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1747835413.591183    1613 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591186    1614 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591191    1615 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591192    1616 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591258    1613 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591279    1614 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591312    1615 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591331    1616 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591337    1613 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591344    1614 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591351    1615 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591358    1616 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591366    1613 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591372    1614 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591379    1615 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747835413.591385    1616 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-05-21 13:50:13.619285: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-05-21 13:50:13.619285: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-05-21 13:50:13.619294: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-05-21 13:50:13.619294: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Initializing WandB with config: {'model': 'DistributedDataParallel', 'lr_max': 0.0001, 'weight_decay': 0.0001, 'batch_size': 128, 'num_epochs': 20, 'gradient_accumulation_steps': 4, 'act_dim': 7, 'sequence_length': 1, 'action_chunk_size': 5}
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: seokjw (seokjw-korea-aerospace-university). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.18.7
+wandb: Run data is saved locally in /workspace/ActionGPT/action_gpt/train/wandb/run-20250521_135036-eyjv3onr
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run actiongpt-run-1747835436.1416006
+wandb: ⭐️ View project at https://wandb.ai/seokjw-korea-aerospace-university/action_gpt
+wandb: 🚀 View run at https://wandb.ai/seokjw-korea-aerospace-university/action_gpt/runs/eyjv3onr
+Train Epoch: 0 [0/493 (0%)] FPS:755.49109 Load Percentage:0.00021 LR:0.0001 action_loss: 0.00530 eval_action_loss: 0.06544
+Train Epoch: 0 [128/493 (26%)] FPS:5933.41357 Load Percentage:0.00417 LR:0.0 action_loss: 0.00513 eval_action_loss: 0.06252
+Train Epoch: 0 [256/493 (52%)] FPS:5932.61426 Load Percentage:0.00397 LR:0.0001 action_loss: 0.00482 eval_action_loss: 0.06512
+Train Epoch: 0 [384/493 (78%)] FPS:4354.64746 Load Percentage:0.00005 LR:0.0 action_loss: 0.00548 eval_action_loss: 0.06416
+A new model checkpoint is saved to /workspace/ActionGPT/action_gpt/outputs/calvin_debug/saved_epoch_1_step_4
+Train Epoch: 1 [0/493 (0%)] FPS:1436.68091 Load Percentage:0.00045 LR:0.0001 action_loss: 0.00532 eval_action_loss: 0.06533
+Train Epoch: 1 [128/493 (26%)] FPS:5828.62500 Load Percentage:0.00386 LR:0.0 action_loss: 0.00529 eval_action_loss: 0.06634
+Train Epoch: 1 [256/493 (52%)] FPS:5916.46387 Load Percentage:0.00410 LR:0.0001 action_loss: 0.00484 eval_action_loss: 0.06080
+Train Epoch: 1 [384/493 (78%)] FPS:4719.34912 Load Percentage:0.00005 LR:0.0 action_loss: 0.00532 eval_action_loss: 0.05929
+A new model checkpoint is saved to /workspace/ActionGPT/action_gpt/outputs/calvin_debug/saved_epoch_2_step_8
+Train Epoch: 2 [0/493 (0%)] FPS:1011.08435 Load Percentage:0.00061 LR:0.0001 action_loss: 0.00491 eval_action_loss: 0.06742
+Train Epoch: 2 [128/493 (26%)] FPS:5938.35449 Load Percentage:0.00374 LR:0.0 action_loss: 0.00516 eval_action_loss: 0.05957
+Train Epoch: 2 [256/493 (52%)] FPS:5936.38770 Load Percentage:0.00422 LR:0.0001 action_loss: 0.00501 eval_action_loss: 0.06086
+Train Epoch: 2 [384/493 (78%)] FPS:4678.06299 Load Percentage:0.00006 LR:0.0 action_loss: 0.00542 eval_action_loss: 0.06600
+A new model checkpoint is saved to /workspace/ActionGPT/action_gpt/outputs/calvin_debug/saved_epoch_3_step_12
+Train Epoch: 3 [0/493 (0%)] FPS:1521.90125 Load Percentage:0.00050 LR:0.0001 action_loss: 0.00548 eval_action_loss: 0.06137
+Train Epoch: 3 [128/493 (26%)] FPS:5864.10449 Load Percentage:0.00426 LR:0.0 action_loss: 0.00505 eval_action_loss: 0.06518
+Train Epoch: 3 [256/493 (52%)] FPS:5816.76367 Load Percentage:0.00381 LR:0.0001 action_loss: 0.00487 eval_action_loss: 0.06396
+Train Epoch: 3 [384/493 (78%)] FPS:4706.63086 Load Percentage:0.00006 LR:0.0 action_loss: 0.00535 eval_action_loss: 0.06041
+A new model checkpoint is saved to /workspace/ActionGPT/action_gpt/outputs/calvin_debug/saved_epoch_4_step_16
+Train Epoch: 4 [0/493 (0%)] FPS:1524.94629 Load Percentage:0.00051 LR:0.0001 action_loss: 0.00505 eval_action_loss: 0.06171
+Train Epoch: 4 [128/493 (26%)] FPS:5912.27637 Load Percentage:0.00394 LR:0.0 action_loss: 0.00528 eval_action_loss: 0.06408
+Train Epoch: 4 [256/493 (52%)] FPS:5863.26367 Load Percentage:0.00419 LR:0.0001 action_loss: 0.00488 eval_action_loss: 0.06457
+Train Epoch: 4 [384/493 (78%)] FPS:4688.40430 Load Percentage:0.00005 LR:0.0 action_loss: 0.00526 eval_action_loss: 0.05982
+A new model checkpoint is saved to /workspace/ActionGPT/action_gpt/outputs/calvin_debug/saved_epoch_5_step_20
+Train Epoch: 5 [0/493 (0%)] FPS:967.38306 Load Percentage:0.00038 LR:0.0001 action_loss: 0.00529 eval_action_loss: 0.06793
+Train Epoch: 5 [128/493 (26%)] FPS:5826.22168 Load Percentage:0.00431 LR:0.0 action_loss: 0.00523 eval_action_loss: 0.05725
+Train Epoch: 5 [256/493 (52%)] FPS:5842.01416 Load Percentage:0.00473 LR:0.0001 action_loss: 0.00507 eval_action_loss: 0.06308
+Train Epoch: 5 [384/493 (78%)] FPS:4654.81641 Load Percentage:0.00005 LR:0.0 action_loss: 0.00506 eval_action_loss: 0.06864
+A new model checkpoint is saved to /workspace/ActionGPT/action_gpt/outputs/calvin_debug/saved_epoch_6_step_24
+Train Epoch: 6 [0/493 (0%)] FPS:1003.99048 Load Percentage:0.00037 LR:0.0001 action_loss: 0.00535 eval_action_loss: 0.06645
+Train Epoch: 6 [128/493 (26%)] FPS:5948.57812 Load Percentage:0.00398 LR:0.0 action_loss: 0.00496 eval_action_loss: 0.06276
+Train Epoch: 6 [256/493 (52%)] FPS:5900.66797 Load Percentage:0.00442 LR:0.0001 action_loss: 0.00499 eval_action_loss: 0.06556
+Train Epoch: 6 [384/493 (78%)] FPS:4707.58252 Load Percentage:0.00005 LR:0.0 action_loss: 0.00531 eval_action_loss: 0.05730
+A new model checkpoint is saved to /workspace/ActionGPT/action_gpt/outputs/calvin_debug/saved_epoch_7_step_28
+Train Epoch: 7 [0/493 (0%)] FPS:1532.94312 Load Percentage:0.00057 LR:0.0001 action_loss: 0.00527 eval_action_loss: 0.06525
+Train Epoch: 7 [128/493 (26%)] FPS:5946.39746 Load Percentage:0.00426 LR:0.0 action_loss: 0.00490 eval_action_loss: 0.06557
+Train Epoch: 7 [256/493 (52%)] FPS:5864.44482 Load Percentage:0.00430 LR:0.0001 action_loss: 0.00525 eval_action_loss: 0.05947
+Train Epoch: 7 [384/493 (78%)] FPS:4680.95166 Load Percentage:0.00005 LR:0.0 action_loss: 0.00525 eval_action_loss: 0.06551
+A new model checkpoint is saved to /workspace/ActionGPT/action_gpt/outputs/calvin_debug/saved_epoch_8_step_32
+Train Epoch: 8 [0/493 (0%)] FPS:1496.63440 Load Percentage:0.00054 LR:0.0001 action_loss: 0.00493 eval_action_loss: 0.06045
+Train Epoch: 8 [128/493 (26%)] FPS:5850.85059 Load Percentage:0.00398 LR:0.0 action_loss: 0.00535 eval_action_loss: 0.06084
+Train Epoch: 8 [256/493 (52%)] FPS:5850.76025 Load Percentage:0.00445 LR:0.0001 action_loss: 0.00507 eval_action_loss: 0.06845
+Train Epoch: 8 [384/493 (78%)] FPS:4646.66113 Load Percentage:0.00006 LR:0.0 action_loss: 0.00530 eval_action_loss: 0.06231
+A new model checkpoint is saved to /workspace/ActionGPT/action_gpt/outputs/calvin_debug/saved_epoch_9_step_36
+Train Epoch: 9 [0/493 (0%)] FPS:1545.87878 Load Percentage:0.00053 LR:0.0001 action_loss: 0.00480 eval_action_loss: 0.06240
+Train Epoch: 9 [128/493 (26%)] FPS:5842.35986 Load Percentage:0.00448 LR:0.0 action_loss: 0.00550 eval_action_loss: 0.06053
+Train Epoch: 9 [256/493 (52%)] FPS:5839.93408 Load Percentage:0.00462 LR:0.0001 action_loss: 0.00539 eval_action_loss: 0.07097
+Train Epoch: 9 [384/493 (78%)] FPS:4688.76953 Load Percentage:0.00006 LR:0.0 action_loss: 0.00483 eval_action_loss: 0.06034
+A new model checkpoint is saved to /workspace/ActionGPT/action_gpt/outputs/calvin_debug/saved_epoch_10_step_40
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:              FPS ▁██▆▂██▆▁██▆▂██▆▂██▆▁██▆▁██▆▂██▆▂██▆▂██▆
+wandb:      action_loss ▆▄▁█▆▆▁▆▂▅▃▇█▃▂▆▃▆▂▆▆▅▄▄▆▃▃▆▆▂▅▅▂▇▄▆▁█▇▁
+wandb:        batch_idx ▁▃▆█▁▃▆█▁▃▆█▁▃▆█▁▃▆█▁▃▆█▁▃▆█▁▃▆█▁▃▆█▁▃▆█
+wandb:            epoch ▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▆▆▆▆▇▇▇▇████
+wandb: eval_action_loss ▅▄▅▅▅▆▃▂▆▂▃▅▃▅▄▃▃▄▅▂▆▁▄▇▆▄▅▁▅▅▂▅▃▃▇▄▄▃█▃
+wandb:    learning_rate █▁█▁█▁█▁█▁█▁█▁█▁█▁█▁█▁█▁█▁█▁█▁█▁█▁█▁█▁█▁
+wandb:  load_percentage ▁▇▇▁▂▇▇▁▂▇▇▁▂▇▇▁▂▇▇▁▁▇█▁▁▇█▁▂▇▇▁▂▇█▁▂██▁
+wandb:             step ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb: 
+wandb: Run summary:
+wandb:              FPS 4688.76953
+wandb:      action_loss 0.00483
+wandb:        batch_idx 3
+wandb:            epoch 9
+wandb: eval_action_loss 0.06034
+wandb:    learning_rate 0
+wandb:  load_percentage 6e-05
+wandb:             step 39
+wandb: 
+wandb: 🚀 View run actiongpt-run-1747835436.1416006 at: https://wandb.ai/seokjw-korea-aerospace-university/action_gpt/runs/eyjv3onr
+wandb: ⭐️ View project at: https://wandb.ai/seokjw-korea-aerospace-university/action_gpt
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250521_135036-eyjv3onr/logs
+[rank1]:[E521 14:01:48.966774678 ProcessGroupNCCL.cpp:1076] [PG 0 (default_pg) Rank 1] Future for ProcessGroup abort timed out after 600000 ms
+[rank1]:[E521 14:10:32.992590595 ProcessGroupNCCL.cpp:1375] [PG 0 (default_pg) Rank 1] First PG on this rank that detected no heartbeat of its watchdog.
+[rank1]:[E521 14:10:32.992703751 ProcessGroupNCCL.cpp:1413] [PG 0 (default_pg) Rank 1] Heartbeat monitor timed out! Process will be terminated after dumping debug info. workMetaList_.size()=0
+[rank1]:[F521 14:20:32.992963669 ProcessGroupNCCL.cpp:1224] [PG 0 (default_pg) Rank 1] [PG 0 (default_pg) Rank 1] ProcessGroupNCCL's watchdog got stuck for 600 seconds without making progress in monitoring enqueued collectives. This typically indicates a NCCL/CUDA API hang blocking the watchdog, and could be triggered by another thread holding the GIL inside a CUDA api, or other deadlock-prone behaviors.If you suspect the watchdog is not actually stuck and a longer timeout would help, you can either increase the timeout (TORCH_NCCL_HEARTBEAT_TIMEOUT_SEC) to a larger value or disable the heartbeat monitor (TORCH_NCCL_ENABLE_MONITORING=0).If either of aforementioned helps, feel free to file an issue to PyTorch about the short timeout or false positive abort; otherwise, please attempt to debug the hang. workMetaList_.size() = 0
